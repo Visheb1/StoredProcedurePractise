@@ -1,3 +1,6 @@
+/*
+Написать хранимую процедуру, которая будет выводить все из таблицы и складывать в JSON
+*/
 CREATE OR REPLACE FUNCTION Public.WorkersToJson() RETURNS json
     LANGUAGE plpgsql
 AS
